@@ -6,7 +6,7 @@ const detalleEl = document.getElementById("partido-detalle");
 const polerasGrid = document.getElementById("poleras-grid");
 const inputId = document.getElementById("partido-id");
 const btnBuscar = document.getElementById("btn-buscar");
- 
+
 const partidosEstaticos = [
   { id: "partido-001", fecha: "2026-06-11", local: "México", visitante: "Sudáfrica", estadio: "Azteca", grupo: "A" },
   { id: "partido-002", fecha: "2026-06-12", local: "Brasil", visitante: "Marruecos", estadio: "MetLife", grupo: "B" },
