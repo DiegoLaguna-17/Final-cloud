@@ -1,10 +1,65 @@
 # Pegar aquí la salida de los 3 curl del Lab 3
 
 ## GET /poleras
-
+{
+  "poleras": [
+    {
+      "archivo": "argentina.jpg",
+      "url": "https://mundial-poleras-laguna.s3.amazonaws.com/poleras/argentina.jpg"
+    },
+    {
+      "archivo": "brasil.jpg",
+      "url": "https://mundial-poleras-laguna.s3.amazonaws.com/poleras/brasil.jpg"
+    }
+  ],
+  "total": 2
+}
 
 ## GET /partidos
 
-
+{
+  "partidos": [
+    {
+      "local": "México",
+      "visitante": "Sudáfrica",
+      "estadio": "Estadio Azteca",
+      "id": "partido-001\t",
+      "grupo": "A",
+      "fecha": "2026-06-11"
+    },
+    {
+      "local": "Brasil",
+      "visitante": "Marruecos",
+      "estadio": "MetLife Stadium",
+      "id": "partido-002",
+      "grupo": "B",
+      "fecha": "2026-06-12\t"
+    },
+    {
+      "local": "Argentina",
+      "visitante": "Polonia",
+      "estadio": "Hard Rock Stadium",
+      "id": "partido-003",
+      "grupo": "C",
+      "fecha": "2026-06-13"
+    },
+    {
+      "local": "España",
+      "visitante": "Japón",
+      "estadio": "SoFi Stadium",
+      "id": "partido-004",
+      "grupo": "D",
+      "fecha": "2026-06-14"
+    }
+  ],
+  "total": 4
+}
 ## GET /partidos/partido-001
-
+{
+  "local": "Brasil",
+  "visitante": "Marruecos",
+  "estadio": "MetLife Stadium",
+  "id": "partido-002",
+  "grupo": "B",
+  "fecha": "2026-06-12\t"
+}
