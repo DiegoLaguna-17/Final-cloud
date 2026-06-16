@@ -54,7 +54,7 @@
   ],
   "total": 4
 }
-## GET /partidos/partido-001
+## GET /partidos/partido-002
 {
   "local": "Brasil",
   "visitante": "Marruecos",
